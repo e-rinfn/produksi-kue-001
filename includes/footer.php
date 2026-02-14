@@ -1,14 +1,14 @@
     <!-- [Page Specific JS] start -->
-    <script src="/narasa-cake/assets/js/plugins/apexcharts.min.js"></script>
-    <script src="/narasa-cake/assets/js/pages/dashboard-default.js"></script>
+    <script src="<?= BASE_URL ?>/assets/js/plugins/apexcharts.min.js"></script>
+    <script src="<?= BASE_URL ?>/assets/js/pages/dashboard-default.js"></script>
     <!-- [Page Specific JS] end -->
     <!-- Required Js -->
-    <script src="/narasa-cake/assets/js/plugins/popper.min.js"></script>
-    <script src="/narasa-cake/assets/js/plugins/simplebar.min.js"></script>
-    <script src="/narasa-cake/assets/js/plugins/bootstrap.min.js"></script>
-    <script src="/narasa-cake/assets/js/fonts/custom-font.js"></script>
-    <script src="/narasa-cake/assets/js/pcoded.js"></script>
-    <script src="/narasa-cake/assets/js/plugins/feather.min.js"></script>
+    <script src="<?= BASE_URL ?>/assets/js/plugins/popper.min.js"></script>
+    <script src="<?= BASE_URL ?>/assets/js/plugins/simplebar.min.js"></script>
+    <script src="<?= BASE_URL ?>/assets/js/plugins/bootstrap.min.js"></script>
+    <script src="<?= BASE_URL ?>/assets/js/fonts/custom-font.js"></script>
+    <script src="<?= BASE_URL ?>/assets/js/pcoded.js"></script>
+    <script src="<?= BASE_URL ?>/assets/js/plugins/feather.min.js"></script>
 
 
 
