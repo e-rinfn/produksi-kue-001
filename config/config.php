@@ -14,7 +14,7 @@ if (!$conn) {
 }
 
 // Base URL
-define('BASE_URL', 'produksi-kue-001');
+define('BASE_URL', '/produksi-kue-001');
 
 // Default Timezone
 date_default_timezone_set('Asia/Jakarta');
@@ -23,7 +23,7 @@ date_default_timezone_set('Asia/Jakarta');
 function checkAuth()
 {
     if (!isset($_SESSION['user_id'])) {
-        header("Location: ../login.php");
+        header("Location: " . BASE_URL . "/login.php");
         exit();
     }
 }
